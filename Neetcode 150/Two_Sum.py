@@ -12,4 +12,4 @@ class Solution(object):
                 if sum == target:
                     return [i, j]
 
-        return none
+        return None
