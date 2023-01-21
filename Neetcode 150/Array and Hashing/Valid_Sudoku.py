@@ -1,5 +1,11 @@
-class Solution:
-    def isValidSudoku(self, board: List[List[str]]) -> bool:
+import collections
+class Solution(object):
+    def isValidSudoku(self, board):
+        """
+        :type board: List[List[str]]
+        :rtype: bool
+        """
+
         boxes = collections.defaultdict(set)
         column = collections.defaultdict(set)
         rows = collections.defaultdict(set)
