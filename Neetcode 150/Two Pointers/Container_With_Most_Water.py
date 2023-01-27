@@ -1,3 +1,4 @@
+#time limit exceed
 class Solution(object):
     def maxArea(self, height):
         """
@@ -11,3 +12,4 @@ class Solution(object):
                 largest = max(largest, area)
 
         return largest
+
